@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sriracha&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Noto Sans Thai", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -38,6 +39,23 @@ body {
 section {
   padding: 3rem 9%;
 }
+
+.luxury-text {
+  font-family: "Playfair Display", serif; /* ฟอนต์หรูหรา */
+  font-weight: bold;
+  font-size: large;
+  margin-top: 10px;
+  color: #b8860b; /* สีทอง */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* เงาเพิ่มความหรู */
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #fff6d5, #ffd700); /* ไล่สีทอง */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: inline-block;
+}
+
+
 
 .heading {
   text-align: center;

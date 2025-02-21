@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Responsive Burger Website Design</title>
+   <title>Peeraphon Burger</title>
 
    <!-- Font Awesome cdn Link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -15,28 +15,24 @@
    <!-- CSS Link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <link rel="shortcut icon" href="images/peeraphon-noBG.png" type="image/x-icon">
+
 </head>
 
 <body>
-
-   <!--
-      https://youtu.be/OLhqlxHFhWs
-   -->
-
    <!-- HEADER -->
    <header class="header">
       <div id="menu-btn" class="fas fa-bars icons"></div>
-
       <div id="search-btn" class="fas fa-search icons"></div>
 
       <nav class="navbar">
-         <a href="#home">home</a>
-         <a href="#menu">menu</a>
-         <a href="#about">about</a>
+         <a href="#home">หน้าแรก</a>
+         <a href="#menu">เมนู</a>
+         <a href="#about">เกี่ยวกับ</a>
          <span class="space"></span>
-         <a href="#reviews">reviews</a>
-         <a href="#contact">contact</a>
-         <a href="#blogs">blogs</a>
+         <a href="#reviews">รีวิว</a>
+         <a href="#contact">ติดต่อเรา</a>
+         <a href="#blogs">บล็อก</a>
       </nav>
 
       <a href="#" class="fas fa-shopping-cart icons"></a>
@@ -44,7 +40,7 @@
       <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
 
       <form action="" class="search-form">
-         <input type="search" name="" placeholder="Search here..." id="search-box">
+         <input type="search" name="" placeholder="ค้นหาที่นี่..." id="search-box">
          <label for="search-box" class="fas fa-search icons"></label>
       </form>
    </header>
@@ -52,12 +48,22 @@
    <!-- HOME -->
    <section class="home" id="home">
       <div class="content">
-         <img data-aos="fade-up" data-aos-delay="150" src="images/burger-baner.png" alt="">
-         <h3 data-aos="fade-up" data-aos-delay="300">So meaty you'll go crazy</h3>
-         <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non porro
-            libero ex cupiditate eligendi. Error
-            illum hic optio aut harum.</p>
-         <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn">our menu</a>
+         <div style="display: flex;justify-content: center;width: 100%;flex-wrap: wrap;">
+            <img style="max-width: 100%;width: 300px;" data-aos="fade-up" data-aos-delay="150"
+               src="images/burger-baner.png" alt="">
+            <div style="display: flex;flex-direction: column;align-items: center;" data-aos="fade-up"
+               data-aos-delay="150">
+               <img style="max-width: 100%;width: 300px;" src="images/peeraphon-noBG.png" alt="">
+               <div class="luxury-text">
+                  ประธานบริษัท
+               </div>
+
+            </div>
+         </div>
+         <h3 data-aos="fade-up" data-aos-delay="300">เนื้อแน่นจัดเต็มจนคุณต้องติดใจ</h3>
+         <p data-aos="fade-up" data-aos-delay="450">เบอร์เกอร์ของเราทำจากเนื้อคุณภาพสูง
+            ผสมผสานกับเครื่องเทศสูตรพิเศษเพื่อรสชาติที่ไม่เหมือนใคร</p>
+         <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn">ดูเมนูของเรา</a>
       </div>
    </section>
 
@@ -65,20 +71,20 @@
    <section class="service">
       <div class="box" data-aos="fade-up" data-aos-delay="150">
          <i class="fas fa-hamburger"></i>
-         <h3>best quality</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, laboriosam!</p>
+         <h3>คุณภาพดีที่สุด</h3>
+         <p>เราคัดสรรวัตถุดิบจากฟาร์มออร์แกนิกเพื่อให้มั่นใจว่าทุกคำที่คุณทานจะอร่อยและปลอดภัย</p>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="300">
          <i class="fas fa-shipping-fast"></i>
-         <h3>free delivery</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, dicta.</p>
+         <h3>ส่งฟรี</h3>
+         <p>บริการส่งอาหารถึงบ้านฟรีในเขตกรุงเทพฯ และปริมณฑล สะดวก รวดเร็ว และปลอดภัย</p>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="450">
          <i class="fas fa-headset"></i>
-         <h3>24/7 support</h3>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, molestias?</p>
+         <h3>บริการตลอด 24 ชั่วโมง</h3>
+         <p>หิวเมื่อไหร่ก็สั่งได้! เรามีทีมงานคอยให้บริการลูกค้าตลอด 24 ชั่วโมง ไม่มีวันหยุด</p>
       </div>
    </section>
 
@@ -86,7 +92,7 @@
    <section class="menu" id="menu">
       <div class="heading">
          <img src="images/title-img.png" alt="">
-         <h3>our menu</h3>
+         <h3>เมนูของเรา</h3>
       </div>
 
       <div class="box-container">
@@ -100,9 +106,9 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
+               <h3>ชีสเบอร์เกอร์</h3>
+               <div class="price">฿990</div>
+               <a href="#" class="btn">เพิ่มในตะกร้า</a>
             </div>
          </div>
 
@@ -116,73 +122,9 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star-half-alt"></i>
                </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
-            </div>
-         </div>
-
-         <div class="box" data-aos="fade-up" data-aos-delay="450">
-            <img src="images/product-3.png" alt="">
-            <div class="content">
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
-            </div>
-         </div>
-
-         <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="images/product-4.png" alt="">
-            <div class="content">
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
-            </div>
-         </div>
-
-         <div class="box" data-aos="fade-up" data-aos-delay="750">
-            <img src="images/product-5.png" alt="">
-            <div class="content">
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
-            </div>
-         </div>
-
-         <div class="box" data-aos="fade-up" data-aos-delay="900">
-            <img src="images/product-6.png" alt="">
-            <div class="content">
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-               <h3>cheese hamburger</h3>
-               <div class="price">$29.99</div>
-               <a href="#" class="btn">add to cart</a>
+               <h3>ชีสเบอร์เกอร์</h3>
+               <div class="price">฿990</div>
+               <a href="#" class="btn">เพิ่มในตะกร้า</a>
             </div>
          </div>
       </div>
@@ -195,19 +137,17 @@
       </div>
 
       <div class="content" data-aos="fade-left" data-aos-delay="300">
-         <h3 class="title">Step into burger heaven</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora, dolores illo ab magni at facere ipsa
-            eveniet pariatur maiores illum, voluptatem numquam neque rem libero accusantium voluptate reiciendis
-            quaerat!</p>
+         <h3 class="title">ยินดีต้อนรับสู่สวรรค์ของเบอร์เกอร์</h3>
+         <p>เราสร้างสรรค์เบอร์เกอร์จากวัตถุดิบสดใหม่และคุณภาพสูง เพื่อให้ทุกคำของคุณเต็มไปด้วยความอร่อยและความสุข</p>
          <div class="icons">
-            <h3><i class="fas fa-check"></i> best price</h3>
-            <h3><i class="fas fa-check"></i> best service</h3>
-            <h3><i class="fas fa-check"></i> fresh ingredient</h3>
-            <h3><i class="fas fa-check"></i> backed buns</h3>
-            <h3><i class="fas fa-check"></i> natural cheese</h3>
-            <h3><i class="fas fa-check"></i> veg & non-veg</h3>
+            <h3><i class="fas fa-check"></i> ราคาดีที่สุด</h3>
+            <h3><i class="fas fa-check"></i> บริการยอดเยี่ยม</h3>
+            <h3><i class="fas fa-check"></i> วัตถุดิบสดใหม่</h3>
+            <h3><i class="fas fa-check"></i> ขนมปังอบใหม่</h3>
+            <h3><i class="fas fa-check"></i> ชีสธรรมชาติ</h3>
+            <h3><i class="fas fa-check"></i> มีทั้งเมนูเนื้อสัตว์และมังสวิรัติ</h3>
          </div>
-         <a href="#" class="btn">read more</a>
+         <a href="#" class="btn">อ่านเพิ่มเติม</a>
       </div>
    </section>
 
@@ -215,15 +155,14 @@
    <section class="reviews" id="reviews">
       <div class="heading">
          <img src="images/title-img.png" alt="">
-         <h3>testimonial</h3>
+         <h3>รีวิวจากลูกค้า</h3>
       </div>
 
       <div class="box-container">
          <div class="box" data-aos="fade-up" data-aos-delay="150">
-            <img src="images/pic-1.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, est nesciunt placeat aspernatur
-               dolorum sapiente quibusdam incidunt earum natus. Ea!</p>
+            <img src="images/zack.jpg" style="object-fit: cover;background-position: top;" alt="">
+            <h3>แซ็คกี้ ออยเลอน์</h3>
+            <p>เบอร์เกอร์อร่อยมาก เนื้อนุ่มฉ่ำ ขนมปังก็หอมสุดๆ สั่งอีกแน่นอน!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -234,155 +173,144 @@
          </div>
 
          <div class="box" data-aos="fade-up" data-aos-delay="300">
-            <img src="images/pic-2.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, dicta adipisci. Distinctio eligendi
-               doloremque soluta consequatur doloribus quisquam hic autem.</p>
+            <img src="images/zla.jpg" alt="">
+            <h3>สลาตั้น โอเวิ่นร์</h3>
+            <p>รสชาติดีมากครับ ซอสเด็ดมาก กินคู่กับเฟรนช์ฟรายส์คือสุดยอด!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-         </div>
-
-         <div class="box" data-aos="fade-up" data-aos-delay="450">
-            <img src="images/pic-3.png" alt="">
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nam quod deleniti perferendis ullam
-               quaerat aliquam ipsum praesentium distinctio odit.</p>
-            <div class="stars">
                <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
             </div>
          </div>
       </div>
    </section>
 
-   <!-- CONTACT -->
+
    <section class="contact" id="contact">
       <div class="heading">
-         <img src="images/title-img.png" alt="">
-         <h3>contact us</h3>
+         <img src="images/title-img.png" alt="ติดต่อเรา">
+         <h3>ติดต่อเรา</h3>
       </div>
 
       <div class="row">
-         <iframe data-aos="fade-up" data-aos-delay="150" class="map"
+         <!-- <iframe data-aos="fade-up" data-aos-delay="150" class="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8709971187222!2d-77.03023917890879!3d-12.120977949653584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9d990f9d283%3A0xc437ddfc0547467c!2sMcDonald&#39;s%20Parque%20Kennedy!5e0!3m2!1ses!2spe!4v1644702904761!5m2!1ses!2spe"
             allowfullscreen="" loading="lazy">
-         </iframe>
+         </iframe> -->
 
          <div class="form">
-            <div class="icons-container">
+            <div class="icons-container" style="justify-content: center;">
                <div class="icons" data-aos="fade-up" data-aos-delay="150">
                   <i class="fas fa-map"></i>
-                  <h3>address :</h3>
-                  <p>Av. Oscar R. Benavides 140 Miraflores, Cercado de Lima, Miraflores 15074</p>
+                  <h3>ที่อยู่ :</h3>
+                  <p>แถวจังหวัดอำนาจนี่ล่ะ</p>
+                  <p>ใกล้ๆวัด</p>
                </div>
 
                <div class="icons" data-aos="fade-up" data-aos-delay="300">
                   <i class="fas fa-envelope"></i>
-                  <h3>email :</h3>
-                  <p>email@mail.com</p>
-                  <p>email@mail.com</p>
+                  <h3>อีเมล :</h3>
+                  <p>peeraphon@mail.com</p>
+                  <p>orasree@mail.com</p>
                </div>
 
                <div class="icons" data-aos="fade-up" data-aos-delay="450">
                   <i class="fas fa-phone"></i>
-                  <h3>phone :</h3>
+                  <h3>โทรศัพท์ :</h3>
                   <p>+111-123-123-123</p>
                   <p>+222-123-123-123</p>
                </div>
 
                <form action="">
-                  <input data-aos="fade-up" data-aos-delay="150" type="text" placeholder="Full name" class="box">
-                  <input data-aos="fade-up" data-aos-delay="300" type="email" placeholder="Email" class="box">
-                  <input data-aos="fade-up" data-aos-delay="450" type="number" placeholder="Phone" class="box">
-                  <textarea data-aos="fade-up" data-aos-delay="600" name="" placeholder="Message" class="box" id=""
+                  <input data-aos="fade-up" data-aos-delay="150" type="text" placeholder="ชื่อ-นามสกุล" class="box">
+                  <input data-aos="fade-up" data-aos-delay="300" type="email" placeholder="อีเมล" class="box">
+                  <input data-aos="fade-up" data-aos-delay="450" type="number" placeholder="เบอร์โทรศัพท์" class="box">
+                  <textarea data-aos="fade-up" data-aos-delay="600" name="" placeholder="ข้อความของคุณ" class="box"
                      cols="30" rows="10"></textarea>
-                  <input data-aos="fade-up" data-aos-delay="750" type="submit" class="btn" value="Send message">
+                  <input data-aos="fade-up" data-aos-delay="750" type="submit" class="btn" value="ส่งข้อความ">
                </form>
             </div>
          </div>
       </div>
    </section>
 
-   <!-- CONTACT -->
    <section class="blogs" id="blogs">
       <div class="heading">
-         <img src="images/title-img.png" alt="">
-         <h3>daily post</h3>
+         <img src="images/title-img.png" alt="บทความ">
+         <h3>โพสต์ประจำวัน</h3>
       </div>
 
       <div class="box-container">
          <div class="box" data-aos="fade-up" data-aos-delay="150">
             <div class="image">
-               <img src="images/blog-1.jpg" alt="">
+               <img
+                  src="https://images.unsplash.com/photo-1735825764478-674bb8df9d4a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="บทความ">
                <div class="icons">
-                  <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
-                  <a href="#"><i class="fas fa-user"></i> by admin</a>
+                  <a href="#"><i class="fas fa-calendar"></i> 21 พฤษภาคม 2022</a>
+                  <a href="#"><i class="fas fa-user"></i> โดยแอดมิน</a>
                </div>
             </div>
             <div class="content">
-               <h3>blog title goes here.</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, non!</p>
-               <a href="#" class="btn">read more</a>
+               <h3>เทคนิคการเรียนให้ได้เกรด A</h3>
+               <p>การเรียนให้ได้เกรด A ไม่ใช่เรื่องยาก หากคุณมีวินัยและใช้เทคนิคการจดจำที่ดี!</p>
+               <a href="#" class="btn">อ่านเพิ่มเติม</a>
             </div>
          </div>
 
          <div class="box" data-aos="fade-up" data-aos-delay="300">
             <div class="image">
-               <img src="images/blog-2.jpg" alt="">
+               <img
+                  src="https://plus.unsplash.com/premium_vector-1728663772730-e5c0693f4206?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="บทความ">
                <div class="icons">
-                  <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
-                  <a href="#"><i class="fas fa-user"></i> by admin</a>
+                  <a href="#"><i class="fas fa-calendar"></i> 21 พฤษภาคม 2022</a>
+                  <a href="#"><i class="fas fa-user"></i> โดยแอดมิน</a>
                </div>
             </div>
             <div class="content">
-               <h3>blog title goes here.</h3>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quia.</p>
-               <a href="#" class="btn">read more</a>
+               <h3>เคล็ดลับการอ่านหนังสือให้มีประสิทธิภาพ</h3>
+               <p>การอ่านหนังสือให้เข้าใจและจำได้ดี ต้องมีเทคนิคที่เหมาะสม เช่น การใช้ Mind Map และการสรุปเนื้อหา</p>
+               <a href="#" class="btn">อ่านเพิ่มเติม</a>
             </div>
          </div>
 
          <div class="box" data-aos="fade-up" data-aos-delay="450">
             <div class="image">
-               <img src="images/blog-3.jpg" alt="">
+               <img
+                  src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="บทความ">
                <div class="icons">
-                  <a href="#"><i class="fas fa-calendar"></i> 21st may, 2022</a>
-                  <a href="#"><i class="fas fa-user"></i> by admin</a>
+                  <a href="#"><i class="fas fa-calendar"></i> 21 พฤษภาคม 2022</a>
+                  <a href="#"><i class="fas fa-user"></i> โดยแอดมิน</a>
                </div>
             </div>
             <div class="content">
-               <h3>blog title goes here.</h3>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, cupiditate!</p>
-               <a href="#" class="btn">read more</a>
+               <h3>วิธีจัดการเวลาให้มีประสิทธิภาพ</h3>
+               <p>การบริหารเวลาเป็นสิ่งสำคัญในการเรียนและทำงาน ใช้ To-Do List และเทคนิค Pomodoro เพื่อเพิ่มประสิทธิภาพ!
+               </p>
+               <a href="#" class="btn">อ่านเพิ่มเติม</a>
             </div>
          </div>
       </div>
    </section>
 
-   <!-- FOOTER -->
+
    <section class="footer">
-      <div class="links">
-         <a href="#home" class="btn">home</a>
-         <a href="#menu" class="btn">menu</a>
-         <a href="#about" class="btn">about</a>
-         <a href="#reviews" class="btn">reviews</a>
-         <a href="#contact" class="btn">contact</a>
-         <a href="#blogs" class="btn">blogs</a>
-      </div>
+      <!-- <div class="links">
+         <a href="#home" class="btn">หน้าแรก</a>
+         <a href="#menu" class="btn">เมนู</a>
+         <a href="#about" class="btn">เกี่ยวกับเรา</a>
+         <a href="#reviews" class="btn">รีวิว</a>
+         <a href="#contact" class="btn">ติดต่อเรา</a>
+         <a href="#blogs" class="btn">บทความ</a>
+      </div> -->
 
-      <p class="credit">Created by <span>Erick Díaz</span> | all rights reserved</p>
+      <p class="credit">สร้างโดย <span><strong>Peeraphon</strong></span> | ทั้งหมดนี้เป็นผลงานส่งในรายวิชาวิทยาการคำนวณ
+      </p>
    </section>
-
-
-
-
 
 
    <!-- JavaScript File -->
